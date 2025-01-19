@@ -1,0 +1,179 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(179, 173, 173);
+}
+
+body {
+  padding: 40px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* Ajusta este valor según el tamaño deseado */
+  object-fit: cover;
+  border-radius: 5px; /* Opcional: para que la imagen también tenga bordes redondeados */
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 1 px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.button {
+  background-color: rgb(91, 91, 92);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 10px 15px;
+  transition: all 0.1s ease-in-out;
+}
+
+.button:active {
+  background-color: rgb(61, 61, 62);
+  transform: scale(0.95);
+}
+
+.button1 {
+  background-color: rgb(91, 91, 92);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 10px 15px;
+  transition: all 0.1s ease-in-out;
+  margin-left: 10px; /* Mueve el botón un poco a la derecha */
+}
+
+.button1:active {
+  background-color: rgb(61, 61, 62);
+  transform: scale(0.95);
+}
+
+.input {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input:focus {
+  border-color: #006eff;
+  box-shadow: 0 0 8px rgb(24, 2, 169);
+  outline: none;
+}
+
+/* Estilo general del formulario */
+.input-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo para la etiqueta del input */
+.input-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Estilo del campo de entrada */
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Estilo del campo cuando está en foco */
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilo del mensaje de error */
+.input-error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+/* Estilo del botón de envío */
+.submit-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo del botón al pasar el cursor */
+.submit-button:hover {
+  background-color: #0056b3;
+}
